@@ -18,9 +18,10 @@ logger = logging.getLogger(__name__)
 #  }
 
 # Define constants  1010954503
-API_ID = '7192495'
-API_HASH = '8bffd323d6c58d47d11885031a1de6c0'
-BOT_TOKEN = "7355714086:AAFCzoIJZ2UZAj6HHRUzXsEDbEKIXBtHPE8"
+#get these in my.elegram
+API_ID = ''
+API_HASH = ''
+BOT_TOKEN = ""
 DOWNLOAD_DIR = 'download/'
 PREMIUM_DIR = 'download/premium/'
 
@@ -59,8 +60,8 @@ keyboard = ReplyKeyboardMarkup(
     ],
     resize_keyboard=True  # Make the keyboard smaller
 )
-
-ADMIN_ID = 1010954503
+#enter your number id
+ADMIN_ID = 0
 ASK_FILENAME, RECEIVE_FILE, DOWNLOADING = range(3)
 #############################################################################
 
