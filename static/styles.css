@@ -1,0 +1,153 @@
+/* Global Styles */
+@font-face {
+    font-family: vazir;
+    src: url(font/Vazir.eot);
+    src: url("font/Vazir.woff") format("woff"),
+     url("font/Vazir.woff2") format("woff2"),
+     url("font/Vazir.ttf") format("ttf");
+}
+body {
+    font-family: 'vazir';
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background: #ffd900;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('/static/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#hero .btn {
+    padding: 15px 30px;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+/* Features Section */
+#features {
+    padding: 80px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    width: 30%;
+}
+
+.feature-item i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+/* Bot Section */
+#bot {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#bot img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer form {
+    margin-top: 20px;
+}
+
+footer input, footer textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer button {
+    padding: 15px 30px;
+    background-color: #ffd700;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
